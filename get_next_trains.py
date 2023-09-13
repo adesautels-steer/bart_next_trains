@@ -1,6 +1,11 @@
 import os
 import requests
 
+from dotenv import load_dotenv
+
+# load environment variables from .env
+load_dotenv()
+
 # prompt for origin and destination stations
 station_orig = input("Please enter the origin station code.\n")
 station_dest = input("\nPlease enter the destination station code.\n")
