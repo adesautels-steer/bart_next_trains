@@ -1,7 +1,7 @@
 # Next Bart Trains
 
 This program prompts the user to enter origin and destination BART station
-codes, and returns schedule and fare details for the next three possible trips
+codes, and returns schedule and fare details from the [BART Legacy API](https://www.bart.gov/schedules/developers/api) for the next three possible trips
 between the selected stations.
 
 ## Setup and Usage
